@@ -17,6 +17,10 @@
   display: inline-block;
 }
 
+.hero {
+  display: flex;
+}
+
 .herotext {
   font-size: 48px;
   font-style: extrabold;
@@ -33,7 +37,7 @@
 }
 
 .redirect-div {
-  display: inline-block; 
+  display: inline-block;
 }
 
 .herodesc,
@@ -60,10 +64,14 @@
   padding-bottom: 64px;
 }
 
+
 .car {
-  height: 400px;
+  height: 350px;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: 256px;
+}
+
+.hero {
   display: flex;
-  flex-direction: row;
-  margin-left: 40%;
 }
