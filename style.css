@@ -43,6 +43,7 @@
 .herodesc,
 .signup {
   font-size: 18px;
+  margin-left: 8px;
   font-family: "Roboto", sans-serif;
   color: #e5e7eb;
 }
@@ -64,9 +65,9 @@
   padding-bottom: 64px;
 }
 
-
 .car {
   height: 350px;
+  border: 3px solid #3882f6;
   border-radius: 10px;
   margin-left: auto;
   margin-right: 256px;
@@ -74,4 +75,34 @@
 
 .hero {
   display: flex;
+}
+
+.galleryhead {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.gallerycontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+
+}
+
+.gallery {
+  border: 1px solid blue;
+}
+
+.cargal {
+  height: 300px;
+  width: 300px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cargaldiv {
+  flex-direction: column;
+  justify-content: center;
 }
