@@ -87,7 +87,6 @@
   flex-direction: row;
   gap: 50px;
   justify-content: center;
-
 }
 
 .gallery {
@@ -109,4 +108,19 @@
 
 .subtext {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #535d6a;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+}
+
+.recommendation {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  color: #1f2937;
+  font-style: italic;
 }
