@@ -37,7 +37,14 @@
 }
 
 .redirect-div {
-  display: inline-block;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.pageredir {
+  display: flex;
+  justify-content: end;
 }
 
 .herodesc,
@@ -45,6 +52,7 @@
   font-size: 18px;
   margin-left: 8px;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
   color: #e5e7eb;
 }
 
@@ -55,7 +63,7 @@
   border: 2px solid #3882f6;
   border-radius: 10px;
   background-color: #3882f6;
-  width: 100px;
+  width: 120px;
   height: 30px;
   margin-left: 8px;
 }
@@ -145,37 +153,53 @@
   height: 10px;
 }
 
-.bottompanel {
+.actionpanel {
   display: flex;
   border: 1px solid #3882f6;
-  border-radius: 8px;
-  background-color: #3882f6;
-  margin: 70px;
-  width: 60%;
-  height: 120px;
-  padding-left: 75px;
-}
-
-.footersignup {
-  border: 1px solid white;
   border-radius: 10px;
-  height: 20px;
+  background-color: #3882f6;
+  align-items: center;
+  line-height: 20px;;
+  margin: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.calltoaction {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color:#f9faf8
-}
-
-.director {
+.actionpanelheader {
   font-family: "Roboto", sans-serif;
   color: #f9faf8;
+  margin-left: 80px;
 }
 
-.endcontainer {
-  border: 1px solid red;
+.actionpaneldirector {
+  font-family: "Roboto", sans-serif;
+  color: #f9faf8;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.actionpanel-button {
+  font-family: "Roboto", sans-serif;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.signup-panel {
   display: flex;
-  height: 300px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  margin-left: 50%;
+  height: 30px;
+  width: 200px;
+  align-items: center;
   justify-content: center;
+  margin-right: 80px;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.footercontainer {
+  background-color: #1f2937;
 }
